@@ -1,0 +1,497 @@
+<html>
+<style>
+body {
+  background-image: url('https://i.pinimg.com/564x/26/0a/1f/260a1fed2501ac3eb3b2b81093e6dbcf.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Serenity</titles
+
+  <style>
+        /* General styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+ 
+        }
+
+	
+        /* Navbar styling - Aligning links to the right */
+        nav {
+            background-color: ; #FF007F;
+            color:EDC4D6;
+            padding: 15px;
+            text-align: center;
+
+            position: sticky;
+            top: 1;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between; /* Distributes space between items */
+            align-items: center; /* Aligns items vertically in the center */
+            
+          
+        }
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+            font-weight: 600;
+        }
+	
+        nav a {
+            color:F5C4E2;
+            margin: 0 15px;
+            text-decoration: coqutte;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #EDC4D6;
+        }
+
+        /* Section styles */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+ }
+  
+        #services {
+            background-color: #white;
+        }
+
+        #about {
+            background-color: #white;
+        }
+        #contact {s
+            background-color: #white;
+        }
+
+h1, h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Service card styles */
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+   
+        .service-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 11px;
+        }
+
+        /* Contact form styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+
+    input[type="submit"] {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff5733;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+    <div class="logo">Sweet Serenity</div> <!-- Heading or Logo on the left -->
+    <div class="nav-links"> <!-- Navigation links on the right -->
+
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   
+    <!-- Home Section -->
+  <style>
+        /* Reset body margin */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif; /* Set a clean font */
+        }
+
+        /* Styling for the home section */
+        .home-section {
+            color: #333; /* Dark text for contrast */
+            padding: 80px 20px; /* Padding for top and bottom */
+            text-align: center; /* Centering the text */
+        }
+
+        .home-section h1 {
+            font-size: 3em; /* Large heading */
+            margin-bottom: 20px;
+        }
+
+        .home-section p {
+            font-size: 1.2em; /* Slightly larger text */
+            margin-bottom: 30px; /* Space between text elements */
+            max-width: 600px; /* Restrict the width for better readability */
+            margin-left: auto;
+            margin-right: auto; /* Centering the paragraph */
+        }
+
+        .home-section button {
+            background-color: #ff69b4; /* Pink button */
+            color: white; /* White button text */
+            padding: 15px 30px; /* Button padding */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 16px; /* Button text size */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin-top: 20px; /* Space above button */
+        }
+
+        .home-section button:hover {
+            background-color: #ff1493; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <h1>Welcome to Our Amazing Website!</h1>
+        <button>Get Started</button>
+    </section>
+
+
+
+ <style>
+        /* Styling the service section */
+        .service-section {
+            background-color: #ffe4e1; /* Light pink background for the section */
+            padding: 40px;
+            text-align: center;
+        }
+
+        .service-section h2 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* Service card container for grid layout */
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Allows cards to wrap in case of smaller screens */
+        }
+
+        /* Styling for individual service cards */
+        .service-card {
+            background-color: white; /* White background for the cards */
+            padding: 20px;
+            width: 250px; /* Adjust width as needed */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 100%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners for the image */
+            margin-bottom: 15px; /* Space below the image */
+        }
+
+        .service-card h3 {
+            margin-bottom: 15px;
+            color: #ff69b4; /* Pink color for the service title */
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .service-card a {
+            text-decoration: none; /* Remove underline from the link */
+        }
+
+        .service-card button {
+            background-color: #ff69b4; /* Pink button */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .service-card button:hover {
+            background-color: #ff1493; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+<section id="services" class="service-section">
+    <h2>Satisfy Your Graving By Buying her:>></h2>
+    <div class="service-container">
+        <!-- First Service Card -->
+        <div class="service-card">
+            <img src="E:\Group 2 Computer Pt nwe\cakemain.jpg" alt="CAKES"> <!-- Update image source to include file extension -->
+            <h3>Cakes</h3>
+            <a href="Cake page.html"> <!-- Link to the specific page for Web Design -->
+                <button>Learn More</button>
+            </a>
+        </div>
+        
+        <!-- Second Service Card -->
+        <div class="service-card">
+            <img src="E:\Group 2 Computer Pt nwe\cupcakefinal.jpg" alt="CUPCAKES"> <!-- Update image source to include file extension -->
+            <h3>Cupcakes</h3>
+            <a href="Cupcake page.html"> <!-- Updated link without file path -->
+                <button>Learn More</button>
+            </a>
+        </div>
+        
+        <!-- Third Service Card -->
+        <div class="service-card">
+            <img src="E:\Group 2 Computer Pt nwe\lastfr.jpg" alt="Marketing"> <!-- Keep the image source -->
+            <h3>Macarons</h3>
+            <a href="Macrons.html"> <!-- Updated link without file path -->
+                <button>Learn More</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<div class="container">
+    </div>
+
+
+
+<!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sweet Serenity specializes in creating delicious sweets that are a delight for any occasion. 
+we put our heart and soul into creating it using only the finest ingredients, From the first bite of our pastries to the last crumb of our irresistible treats.that not only satisfy your cravings but make every occasion memorable.</p>
+    </section>
+
+
+
+ 
+
+ <style>
+        /* Reset body margin */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif; /* Set a clean font */
+        }
+
+        /* Styling for the contact section */
+        .contact-section {
+            background-color: #ffe4e1; /* Light pink background */
+            color: #333; /* Dark text for contrast */
+            padding: 50px 20px; /* Padding for top and bottom */
+            text-align: center; /* Centering the text */
+            max-width: 600px; /* Set a maximum width for the section */
+            margin: 0 auto; /* Center the contact section */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        .contact-card {
+            background-color: white; /* White background for the card */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 30px; /* Padding inside the card */
+            max-width: 400px; /* Maximum width of the card */
+            margin: 20px auto; /* Center the card and add vertical space */
+        }
+
+        .contact-card h1 {
+            font-size: 2em; /* Adjusted heading size */
+            margin-bottom: 15px; /* Bottom margin */
+        }
+
+        .contact-card p {
+            font-size: 1em; /* Standard text size */
+            margin-bottom: 20px; /* Space between text elements */
+        }
+
+        .contact-card form {
+            display: flex; /* Flexbox for layout */
+            flex-direction: column; /* Vertical layout */
+            align-items: center; /* Center form elements */
+            gap: 10px; /* Space between form fields */
+        }
+
+        .contact-card input, .contact-card textarea {
+            width: 100%; /* Full width for inputs */
+            padding: 10px; /* Padding inside inputs */
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 14px; /* Standard font size for inputs */
+        }
+
+        .contact-card button {
+            background-color: #ff69b4; /* Pink button */
+            color: white; /* White button text */
+            padding: 12px 25px; /* Button padding */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 16px; /* Button text size */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin-top: 10px; /* Space above button */
+        }
+
+        .contact-card button:hover {
+            background-color: #ff1493; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+
+     <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-card">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you! Please fill out the form below and we will get back to you shortly.</p>
+            
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+   
+
+
+
+
+
+
+ <style>
+        /* Reset body margin */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif; /* Set a clean font */
+        }
+
+        /* Styling for the footer */
+        footer {
+            background-color: transparent; /* No background for the footer */
+            padding: 30px 20px; /* Padding for top and bottom */
+            text-align: center; /* Centering the text */
+            margin-top: 20px; /* Space above the footer */
+        }
+
+        .footer-card {
+            background-color: #ffe4e1; /* Very light pink background for the card */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 20px; /* Padding inside the card */
+            width: 90%; /* Set width to 90% of the page */
+            max-width: 800px; /* Maximum width for larger screens */
+            margin: 0 auto; /* Center the card */
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-around; /* Space items evenly */
+            align-items: center; /* Center items vertically */
+            flex-wrap: wrap; /* Allow items to wrap */
+  /* Footer styling */
+        footer {
+            background-color: rgba(255, 178, 215, 0.8); /* Light pink with 80% opacity */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        
+        }
+
+        .footer-card p {
+            margin: 0 10px; /* Space between paragraphs */
+            font-size: 0.9em; /* Smaller font size */
+            color: #c71585; /* Darker pink text color */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-card">
+            <p>© 2024 Sweet Serenity. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+
+
